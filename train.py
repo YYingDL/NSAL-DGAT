@@ -2,7 +2,7 @@ import torch, argparse
 import torch.nn as nn
 from torch.autograd import Variable
 from torch.utils.tensorboard import SummaryWriter
-from network_rawwwwww import Discriminator, Domain_adaption_model
+from network import Discriminator, Domain_adaption_model
 from Adversarial import DAANLoss
 import utils
 from utils import create_logger
